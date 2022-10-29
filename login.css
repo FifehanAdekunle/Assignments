@@ -1,0 +1,22 @@
+body{
+    background-color:burlywood;
+  }
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+.submit:hover {
+    opacity:1;
+  }
+  .submitbtn {
+    background-color: #281b0b;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
