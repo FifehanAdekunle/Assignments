@@ -1,0 +1,41 @@
+body{
+  background-color:black;
+}
+nav{
+    float: right;
+
+}
+p,H1{
+    color: brown;
+}
+a{
+  color: white;
+
+}
+/* Add a black background color to the top navigation */
+.topnav ,footer{
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a ,footer{
+  float: left;
+  color: brown;
+  text-align: center;
+  padding: 2px 4px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover ,footer{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active ,footer{
+  background-color: brown;
+  color: white;
+}
